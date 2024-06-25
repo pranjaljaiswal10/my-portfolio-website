@@ -107,6 +107,9 @@
     right: 1rem;
 }
 
+.contact .contact-text{
+    display:flex;
+}
 
 footer{
     background-color: black;
