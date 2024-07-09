@@ -3,8 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="icon" href="/image/porticon.png" />
-    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css">
     <title>Pranjal Jaiswal | Frontend Developer</title>
   </head>
   <body>
@@ -25,7 +27,6 @@
           <div class="hero-text">
             <h2 class="hero-heading">
               Front-End React Developer
-              <!-- <img src="/image/waving.png" alt="" /> -->
             </h2>
             <p>
               Hi,I'm Pranjal Jaiswal. A passionate Front-end React Developer
@@ -37,26 +38,7 @@
               target="_blank"
               href="https://www.linkedin.com/in/pranjaljaiswal04/"
             >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="32"
-                height="32"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                class="tabler-icon tabler-icon-brand-linkedin"
-              >
-                <path
-                  d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z"
-                ></path>
-                <path d="M8 11l0 5"></path>
-                <path d="M8 8l0 .01"></path>
-                <path d="M12 16l0 -5"></path>
-                <path d="M16 16v-3a2 2 0 0 0 -4 0"></path>
-              </svg>
+            <i class="fa-brands fa-linkedin fa-xl" ></i>
             </a>
             <a
               aria-label="github"
@@ -64,22 +46,7 @@
               target="_blank"
               href="https://github.com/pranjaljaiswal10"
             >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="32"
-                height="32"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                class="tabler-icon tabler-icon-brand-github"
-              >
-                <path
-                  d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5"
-                ></path>
-              </svg>
+            <i class="fa-brands fa-github fa-xl" ></i>
             </a>
           </div>
           <div class="hero-image">
@@ -102,12 +69,15 @@
       </section>
       <section id="about" class="about">
         <div class="img-side">
-          <img src="/image/about-img.webp" class="img-side_main-image" alt="" />
-          <img src="/image/working-emoji.png" alt="" class="work-emoji" />
+          <img src="/image/about-img.webp" class="img-side_main-image" alt="mee" />
+          <img src="/image/working-emoji.png" alt="emoji" class="work-emoji" />
+          <span>
+            <img src="image/text.svg" alt="text">
+          </span>
         </div>
         <div class="text-side">
           <h3>ABOUT ME</h3>
-          <span>Front-end Develope based in Prayagraj,Uttar Pradesh 📍</span>
+          <h4>Front-end Developer based in Prayagraj,Uttar Pradesh 📍</h4>
           <p>
             Hey, my name is Pranjal, and I'm a Frontend Developer. My passion is
             to create and develop a clean UI/UX for my users.
@@ -118,53 +88,56 @@
           </p>
         </div>
       </section>
-      <section id="project" class="project">
+      <section id="project" class="project">  
         <h3>PROJECT</h3>
         <div id="eatfit">
           <div class="project-image">
-            <img src="/image/" alt="" />
+            <img src="image/eatfit_homepage.png" alt="eatfit" />
           </div>
           <div class="project-text">
             <h4>EATFIT</h4>
             <p> a web app designed for convenient food delivery! 🍕🛒 This exciting project integrates seamlessly with live Swiggy APIs, ensuring real-time updates and a comprehensive selection.</p>
-            <span>TailwindCSS</span>
-            <span>React</span>
-            <span>Firebase</span>
             <ul>
-              <li><a href="https://github.com/pranjaljaiswal10/eatfit">Code</a></li>
-              <li><a href="https://eatfit-pj.vercel.app">Live Demo</a></li>
+              <li>React</li>
+              <li>Firebase</li>
+            </ul>
+            <ul>
+              <li><a href="https://github.com/pranjaljaiswal10/eatfit">Code</a><i class="fa-brands fa-github"></i></li>
+              <li><a href="https://eatfit-pj.vercel.app">Live Demo</a><i class="fa-solid fa-arrow-up-right-from-square"></i></li>
             </ul>
           </div>
         </div>
-        <div id="netflix.ai">
+        <div id="netflix">
           <div class="project-image">
-            <img src="" alt="" />
+            <img src="image/netfli.ai_homepage.png" alt="netflix.ai" />
           </div>
           <div class="project-text">
             <h4>NETFLIX.AI</h4>
             <p>Implemented netflix core functionality with a proper user auth system backed by firebase, Integrated Gemini(Google) api's to fetch movies via given prompt, a features loaded and heavy on UI project.</p>
-            <span>TailwindCSS</span>
-            <span>React</span>
-            <span>Firebase</span>
-            <span>Gemini API</span>
+          <ul>
+            <li>Firebase</li>
+            <li>Gemini API</li>
+          </ul>
             <ul>
-              <li><a href="https://github.com/pranjaljaiswal10/netflix.ai">Code</a></li>
-              <li><a href="https://netflix-ai-pj.vercel.app">Live Demo</a></li>
+              <li><a href="https://github.com/pranjaljaiswal10/netflix.ai">Code</a><i class="fa-brands fa-github"></i></li>
+              <li><a href="https://netflix-ai-pj.vercel.app">Live Demo</a><i class="fa-solid fa-arrow-up-right-from-square"></i></li>
             </ul>
           </div>
         </div>
         <div id="streamify">
           <div class="project-image">
-            <img src="" alt="" />
+            <img src="image/homepage.png"  alt="streamify" />
           </div>
           <div class="project-text">
             <h4>STREAMIFY</h4>
-            <p>This mobile responsive youtube clone implements most of youtube's actively used features such as video display, search, comments and suggested videos, utilizing youtube data api v3. Tech stack : react, redux, tailwind css</p>
-            <span>React</span>
-            <span>TailwindCSS</span>
+            <p>This mobile responsive youtube clone implements most of youtube's actively used features such as video display, search, comments and suggested videos, utilizing youtube data api v3.</p>
             <ul>
-              <li><a href="https://github.com/pranjaljaiswal10/streamify">Code</a></li>
-              <li><a href="https://streamify-pj.vercel.app">Live Demo</a></li>
+              <li>React</li>
+              <li>TailwindCSS</li>
+            </ul>
+            <ul>
+              <li><a href="https://github.com/pranjaljaiswal10/streamify">Code</a><i class="fa-brands fa-github"></i></li>
+              <li><a href="https://streamify-pj.vercel.app">Live Demo</a><i class="fa-solid fa-arrow-up-right-from-square"></i></li>
             </ul>
           </div>
         </div>
@@ -172,34 +145,27 @@
       <section id="contact" class="contact">
         <h3>CONTACT</h3>
         <div class="contact-text">
-          <div>
+          <div class="location">
+            <span>
+              <i class="fa-solid fa-location-dot " style="color:#147efb"></i>
+            </span>
+            <div class="detail">
             <h4>Location</h4>
-            <pre>Bharwari Kaushambi</pre>
+            <span>Bharwari Kaushambi</span>
           </div>
-          <div>
-            <a aria-label="email" target="_blank" rel="noreferrer" href="">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="30"
-                height="30"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                class="tabler-icon tabler-icon-mail"
-              >
-                <path
-                  d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10z"
-                ></path>
-                <path d="M3 7l9 6l9 -6"></path>
-              </svg>
-            </a>
+          </div>
+          <div class="mail">
+             <span>
+              <i class="fa-regular fa-envelope fa-xl" style="color:#147efb"></i>
+          </span>
+          <div class="detail">
             <h4>Mail</h4>
+            <span>
             <a href="mailto:pranjaljaiswal35@gmail.com"
-              >pranjaljaiswal35@gmail.com</a
+            >pranjaljaiswal35@gmail.com</a
             >
+            </span>
+            </div>
           </div>
         </div>
       </section>
@@ -214,26 +180,7 @@
             rel="noreferrer"
             href="https://www.linkedin.com/in/pranjaljaiswal04/"
           >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="32"
-              height="32"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              class="tabler-icon tabler-icon-brand-linkedin"
-            >
-              <path
-                d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z"
-              ></path>
-              <path d="M8 11l0 5"></path>
-              <path d="M8 8l0 .01"></path>
-              <path d="M12 16l0 -5"></path>
-              <path d="M16 16v-3a2 2 0 0 0 -4 0"></path>
-            </svg>
+          <i class="fa-brands fa-linkedin" style="color: white;" ></i>
           </a>
 
           <a
@@ -242,22 +189,7 @@
             rel="noreferrer"
             href="https://github.com/pranjaljaiswal10"
           >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="32"
-              height="32"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              class="tabler-icon tabler-icon-brand-github"
-            >
-              <path
-                d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5"
-              ></path>
-            </svg>
+          <i class="fa-brands fa-github" style="color: white; padding-left: 1rem;" ></i>
           </a>
         </div>
       </div>
