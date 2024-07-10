@@ -12,6 +12,7 @@ body {
 
 h3 {
     color: #147efb;
+    font-size: 1rem;
 }
 
 a{
@@ -25,19 +26,25 @@ header {
     background-color: snow;
     z-index: 40;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+    height: auto;
+    padding: 25px 40px 25px 50px;
 }
 
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 1.5rem 4rem;
+    
     
 }
 
-nav,
+nav a,
 .project a {
     color: black;
+}
+
+ul a:hover{
+    color:#147efb
 }
 
 li {
@@ -46,7 +53,7 @@ li {
 
 nav ul {
     display: flex;
-    gap:2rem
+    gap:2rem;
 }
 
 nav ul a{
@@ -55,10 +62,15 @@ nav ul a{
     transition: all .23s;
 }
 
+.hamburger,.close{
+    display: none;
+}
+
+
 main {
     max-width: 70rem;
     margin: 0 auto;
-    padding: 8rem 3rem;
+    padding: 12rem 3rem;
     background-color: antiquewhite;
 }
 
@@ -72,10 +84,16 @@ main {
 .hero .hero-main {
     display: grid;
     grid-template-columns: repeat(2,1fr);
+    gap: 2rem;
 }
 
 .hero-main .hero-image {
     justify-self: center;
+}
+
+.hero-main .hero-text{
+    align-self:center;
+    
 }
 
 .hero-main .hero-text p{
@@ -95,6 +113,7 @@ main {
 
 .hero-main .hero-heading {
     font-size: xxx-large;
+    color: #2d2e32;
 }
 
 .hero .skills {
@@ -103,12 +122,24 @@ main {
     align-items: center;
 }
 
-.skills .logos {
-    padding-left: 4rem;
+.skills span{
+    border-right: 2px solid rgba(45,46,50,.5);
+    padding-right: 2rem;
+    margin-right: 5rem;
+    color: #2d2e32;
+    font-family: Mulish, sans-serif;
 }
 
+.hero .skills ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap:2rem;
+    list-style: none;
+}
+
+
 #about {
-    padding: 15rem 0;
+    padding: 12rem 0;
    display: grid;
    grid-template-columns: repeat(2,1fr);
 }
@@ -131,6 +162,7 @@ main {
     font-family: Mulish, sans-serif;
     font-weight: 500;
     padding-right:1rem;
+    font-size: 1rem;
 }
 
 #about .img-side {
@@ -168,6 +200,7 @@ main {
 #streamify,#eatfit,#netflix{
     display: grid;
     grid-template-columns: repeat(2,1fr);
+    gap: 3rem;
     padding:2rem  1rem;
 }
 
@@ -179,6 +212,8 @@ main {
 #streamify .project-image img,#netflix .project-image img ,#eatfit .project-image img{
  height:250px;
  width:400px;
+ border-radius: 18px;
+ border: 1px solid gray;
 }
 
 #netflix .project-text{
@@ -199,6 +234,7 @@ main {
     color:#767676;
     padding: 1.5rem 2rem;
     font-family: Mulish, sans-serif;
+    font-size: 1rem;
 }
 
 #streamify .project-text ul , #eatfit .project-text ul,#netflix .project-text ul{
@@ -214,24 +250,22 @@ main {
   padding-top:5rem ;
 }
 
-#contact .contact-text{
+#contact .contact-detail{
     display: flex;
     padding-top: 3rem;
     
 }
 
-#contact .contact-text .location{
+#contact .contact-detail .location,#contact .contact-detail .mail{
     display: flex;
     gap: 1.5rem;
 }
 
-#contact .contact-text .mail{
-    display: flex;
+#contact .contact-detail .mail{
     padding-left: 6rem;
-    gap: 1.5rem;
 }
 
-#contact .contact-text .mail .detail a,#contact .contact-text .location .detail span{
+#contact .contact-detail .mail .detail a,#contact .contact-detail .location .detail span{
   color: #767676;
 }
 
@@ -240,11 +274,12 @@ footer {
     color: white;
 }
 
-footer .footer {
+footer .content {
     width: 80%;
     margin: 0 auto;
     padding: 3rem 0 ;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    font-weight: bold;
 }

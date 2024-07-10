@@ -3,16 +3,26 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="icon" href="/image/porticon.png" />
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/responsive.css" />
     <title>Pranjal Jaiswal | Frontend Developer</title>
   </head>
   <body>
     <header>
       <nav>
-        <h1>Pranjal Jaiswal</h1>
+        <a href="#home">
+          <h1>Pranjal.dev</h1>
+        </a>
+        <i class="fa-solid fa-bars fa-xl hamburger sm-hamburger "></i>
+        <i class="fa-solid fa-xmark fa-xl close "></i>
         <ul>
           <li><a href="#home">Home</a></li>
           <li><a href="#about">About</a></li>
@@ -25,9 +35,7 @@
       <section id="home" class="hero">
         <div class="hero-main">
           <div class="hero-text">
-            <h2 class="hero-heading">
-              Front-End React Developer
-            </h2>
+            <h2 class="hero-heading">Front-End React Developer</h2>
             <p>
               Hi,I'm Pranjal Jaiswal. A passionate Front-end React Developer
               based in Prayagraj, Uttar Pradesh 📍
@@ -36,9 +44,9 @@
               aria-label="linkedin"
               rel="noreferrer"
               target="_blank"
-              href="https://www.linkedin.com/in/pranjaljaiswal04/"
+              href="https://www.linkedin.com/in/pranjaljaiswal04"
             >
-            <i class="fa-brands fa-linkedin fa-xl" ></i>
+              <i class="fa-brands fa-linkedin fa-xl"></i>
             </a>
             <a
               aria-label="github"
@@ -46,7 +54,7 @@
               target="_blank"
               href="https://github.com/pranjaljaiswal10"
             >
-            <i class="fa-brands fa-github fa-xl" ></i>
+              <i class="fa-brands fa-github fa-xl"></i>
             </a>
           </div>
           <div class="hero-image">
@@ -58,21 +66,47 @@
           </div>
         </div>
         <div class="skills">
-          Tech Stack |
+          <span>TechStack</span>
           <div class="logos">
-            <img
-              src="https://skillicons.dev/icons?i=html,css,javascript,react,redux,tailwindcss,firebase,git"
-              alt="skill-icon"
-            />
+            <ul>
+              <li>
+                <img
+                  src="https://skillicons.dev/icons?i=html,css"
+                  alt="skill-icon"
+                />
+              </li>
+              <li>
+                <img
+                  src="https://skillicons.dev/icons?i=js,git"
+                  alt="skill-icon"
+                />
+              </li>
+              <li>
+                <img
+                  src="https://skillicons.dev/icons?i=react,redux"
+                  alt="skill-icon"
+                />
+              </li>
+              <li>
+                <img
+                  src="https://skillicons.dev/icons?i=tailwind,firebase"
+                  alt="skill-icon"
+                />
+              </li>
+            </ul>
           </div>
         </div>
       </section>
       <section id="about" class="about">
         <div class="img-side">
-          <img src="/image/about-img.webp" class="img-side_main-image" alt="mee" />
+          <img
+            src="/image/about-img.webp"
+            class="img-side_main-image"
+            alt="mee"
+          />
           <img src="/image/working-emoji.png" alt="emoji" class="work-emoji" />
           <span>
-            <img src="image/text.svg" alt="text">
+            <img src="image/text.svg" alt="text" />
           </span>
         </div>
         <div class="text-side">
@@ -88,7 +122,7 @@
           </p>
         </div>
       </section>
-      <section id="project" class="project">  
+      <section id="project" class="project">
         <h3>PROJECT</h3>
         <div id="eatfit">
           <div class="project-image">
@@ -96,14 +130,28 @@
           </div>
           <div class="project-text">
             <h4>EATFIT</h4>
-            <p> a web app designed for convenient food delivery! 🍕🛒 This exciting project integrates seamlessly with live Swiggy APIs, ensuring real-time updates and a comprehensive selection.</p>
+            <p>
+              a web app designed for convenient food delivery! 🍕🛒 This
+              exciting project integrates seamlessly with live Swiggy APIs,
+              ensuring real-time updates and a comprehensive selection.
+            </p>
             <ul>
               <li>React</li>
               <li>Firebase</li>
             </ul>
             <ul>
-              <li><a href="https://github.com/pranjaljaiswal10/eatfit">Code</a><i class="fa-brands fa-github"></i></li>
-              <li><a href="https://eatfit-pj.vercel.app">Live Demo</a><i class="fa-solid fa-arrow-up-right-from-square"></i></li>
+              <li>
+                <a
+                  href="https://github.com/pranjaljaiswal10/eatfit"
+                  target="_blank"
+                  >Code</a
+                ><i class="fa-brands fa-github"></i>
+              </li>
+              <li>
+                <a href="https://eatfit-pj.vercel.app" target="_blank"
+                  >Live Demo</a
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </li>
             </ul>
           </div>
         </div>
@@ -113,74 +161,106 @@
           </div>
           <div class="project-text">
             <h4>NETFLIX.AI</h4>
-            <p>Implemented netflix core functionality with a proper user auth system backed by firebase, Integrated Gemini(Google) api's to fetch movies via given prompt, a features loaded and heavy on UI project.</p>
-          <ul>
-            <li>Firebase</li>
-            <li>Gemini API</li>
-          </ul>
+            <p>
+              Implemented netflix core functionality with a proper user auth
+              system backed by firebase, Integrated Gemini(Google) api's to
+              fetch movies via given prompt, a features loaded and heavy on UI
+              project.
+            </p>
             <ul>
-              <li><a href="https://github.com/pranjaljaiswal10/netflix.ai">Code</a><i class="fa-brands fa-github"></i></li>
-              <li><a href="https://netflix-ai-pj.vercel.app">Live Demo</a><i class="fa-solid fa-arrow-up-right-from-square"></i></li>
+              <li>Firebase</li>
+              <li>Gemini API</li>
+            </ul>
+            <ul>
+              <li>
+                <a
+                  href="https://github.com/pranjaljaiswal10/netflix.ai"
+                  target="_blank"
+                  >Code</a
+                ><i class="fa-brands fa-github"></i>
+              </li>
+              <li>
+                <a href="https://netflix-ai-pj.vercel.app" target="_blank"
+                  >Live Demo</a
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </li>
             </ul>
           </div>
         </div>
         <div id="streamify">
           <div class="project-image">
-            <img src="image/homepage.png"  alt="streamify" />
+            <img src="image/homepage.png" alt="streamify" />
           </div>
           <div class="project-text">
             <h4>STREAMIFY</h4>
-            <p>This mobile responsive youtube clone implements most of youtube's actively used features such as video display, search, comments and suggested videos, utilizing youtube data api v3.</p>
+            <p>
+              This mobile responsive youtube clone implements most of youtube's
+              actively used features such as video display, search, comments and
+              suggested videos, utilizing youtube data api v3.
+            </p>
             <ul>
               <li>React</li>
               <li>TailwindCSS</li>
             </ul>
             <ul>
-              <li><a href="https://github.com/pranjaljaiswal10/streamify">Code</a><i class="fa-brands fa-github"></i></li>
-              <li><a href="https://streamify-pj.vercel.app">Live Demo</a><i class="fa-solid fa-arrow-up-right-from-square"></i></li>
+              <li>
+                <a
+                  href="https://github.com/pranjaljaiswal10/streamify"
+                  target="_blank"
+                  >Code</a
+                ><i class="fa-brands fa-github"></i>
+              </li>
+              <li>
+                <a href="https://streamify-pj.vercel.app" target="_blank"
+                  >Live Demo</a
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </li>
             </ul>
           </div>
         </div>
       </section>
       <section id="contact" class="contact">
         <h3>CONTACT</h3>
-        <div class="contact-text">
+        <div class="contact-detail">
           <div class="location">
             <span>
-              <i class="fa-solid fa-location-dot " style="color:#147efb"></i>
+              <i class="fa-solid fa-location-dot" style="color: #147efb"></i>
             </span>
             <div class="detail">
-            <h4>Location</h4>
-            <span>Bharwari Kaushambi</span>
-          </div>
+              <h4>Location</h4>
+              <span>Bharwari Kaushambi</span>
+            </div>
           </div>
           <div class="mail">
-             <span>
-              <i class="fa-regular fa-envelope fa-xl" style="color:#147efb"></i>
-          </span>
-          <div class="detail">
-            <h4>Mail</h4>
             <span>
-            <a href="mailto:pranjaljaiswal35@gmail.com"
-            >pranjaljaiswal35@gmail.com</a
-            >
+              <i
+                class="fa-regular fa-envelope fa-xl"
+                style="color: #147efb"
+              ></i>
             </span>
+            <div class="detail">
+              <h4>Mail</h4>
+              <span>
+                <a href="mailto:pranjaljaiswal35@gmail.com"
+                  >pranjaljaiswal35@gmail.com</a
+                >
+              </span>
             </div>
           </div>
         </div>
       </section>
     </main>
     <footer>
-      <div class="footer">
+      <div class="content">
         <p>Copyright © 2024. All rights are reserved</p>
         <div class="footer__socials">
           <a
             aria-label="linkedin"
             target="_blank"
             rel="noreferrer"
-            href="https://www.linkedin.com/in/pranjaljaiswal04/"
+            href="https://www.linkedin.com/in/pranjaljaiswal04"
           >
-          <i class="fa-brands fa-linkedin" style="color: white;" ></i>
+            <i class="fa-brands fa-linkedin" style="color: white"></i>
           </a>
 
           <a
@@ -189,10 +269,14 @@
             rel="noreferrer"
             href="https://github.com/pranjaljaiswal10"
           >
-          <i class="fa-brands fa-github" style="color: white; padding-left: 1rem;" ></i>
+            <i
+              class="fa-brands fa-github"
+              style="color: white; padding-left: 1rem"
+            ></i>
           </a>
         </div>
       </div>
     </footer>
+    <script src="/script.js"></script>
   </body>
 </html>
