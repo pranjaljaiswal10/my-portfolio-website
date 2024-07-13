@@ -43,7 +43,7 @@ nav a,
     color: black;
 }
 
-ul a:hover{
+nav ul a:hover{
     color:#147efb
 }
 
@@ -179,16 +179,16 @@ main {
     width: 12rem;
 }
 
+.img-side span img{
+    width: 12rem;
+}
+
 .work-emoji{
     bottom: 30px;
     right:79px;
     position: absolute;
     z-index: 10;
     width: 6rem;
-}
-
-.img-side span img{
-    width: 12rem;
 }
 
 #about .img-side_main-image {
