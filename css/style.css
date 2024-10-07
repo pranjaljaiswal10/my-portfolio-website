@@ -23,7 +23,7 @@ header {
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: snow;
+    background-color:#0c121c;
     z-index: 40;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
     height: auto;
@@ -71,7 +71,7 @@ main {
     max-width: 70rem;
     margin: 0 auto;
     padding: 12rem 3rem;
-    background-color: antiquewhite;
+    background-color: #1e2021;
 }
 
 .hero .profile-image {
