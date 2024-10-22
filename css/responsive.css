@@ -1,14 +1,21 @@
 @media screen and (max-width: 480px) {
- 
   footer .content {
     flex-wrap: wrap;
-    gap: 2rem;
+    gap: 1rem;
     justify-content: center;
     text-align: center;
+  }
+  .container {
+    padding: 0 1.7rem;
   }
 }
 
 @media screen and (max-width: 768px) {
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
   .hamburger,
   .sm-close {
     display: block;
@@ -29,30 +36,65 @@
     gap: 1rem;
     padding: 1rem;
   }
-  
-.hero-main .hero-image {
-    justify-self: center;
-}
 
-.hero-text span {
-  gap: 1.6rem;
-  justify-content: center;
-  margin-top: -1rem;
-}
-  
+  .hero {
+    padding: 11rem 0;
+    height: auto;
+  }
+
+  .hero-main {
+    gap: 2rem;
+  }
+
+  .hero-main .hero-image {
+    justify-self: center;
+  }
+
+  .hero-main .hero-text p {
+    padding: 0;
+    padding-top: 1.5rem;
+  }
+
+  .hero-text span {
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 1.5rem;
+  }
+
+  .skills {
+    flex-direction: column;
+    position: static;
+    padding: 2rem 0;
+  }
+
+  .skills p {
+    border-bottom: 2px solid rgba(45, 46, 50, 0.5);
+    border-right: none;
+    margin-bottom: 2rem;
+    margin-right: 0;
+    padding-bottom: 1rem;
+    padding-right: 0;
+  }
+
+  .skills ul {
+    justify-content: center;
+  }
+
+  #project p,
+  #contact p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+
   .hero .hero-main,
   #streamify,
   #eatfit,
   #netflix {
     grid-template-columns: 1fr;
+    gap: 2rem;
     justify-items: center;
     text-align: center;
-  }
-
-  #netflix .project-image,
-  #eatfit .project-image,
-  #streamify .project-image {
-    justify-self: center;
+    padding: 2rem 1rem;
   }
 
   .hero-main .hero.image,
@@ -63,20 +105,20 @@
   #netflix .project-text {
     order: 2;
   }
+
   .contact-content {
-    flex-direction: column;
     align-items: center;
   }
-  .contact-box {
-    flex-direction: column;
-  }
+
+  .contact-detail,
+  .contact-box,
   .contact-detail {
     flex-direction: column;
-    gap: 5rem;
+    gap: 2rem;
     justify-content: center;
     text-align: center;
   }
-   .work-emoji,
+  .work-emoji,
   .img-side span {
     display: none;
   }
@@ -85,18 +127,25 @@
 @media screen and (max-width: 1024px) {
   .skill ul {
     justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
   }
+  #about {
+    padding: 4rem 0;
+  }
+
   .about-content {
     grid-template-columns: 1fr;
     justify-items: center;
     text-align: center;
-    margin-top: 2rem;
+    margin-top: 1rem;
   }
   #contact {
-    padding: 8rem 0;
+    padding: 4rem 0;
   }
   .text-side {
     margin: 0 auto;
     max-width: 54rem;
+    padding: 0 1rem;
   }
 }

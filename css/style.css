@@ -39,7 +39,10 @@ nav a,
   color: black;
 }
 
-nav ul a:hover {
+a:hover,
+.hero span a:hover,
+.project a:hover,
+footer .footer-socials a:hover {
   color: #147efb;
 }
 
@@ -74,14 +77,14 @@ nav ul a {
   background-color: #fff;
   width: 100%;
   display: flex;
-  padding-top: 6rem;
+  padding-top: 10rem;
 }
 
 .hero .profile-image {
   border-radius: 100%;
   border: 2px solid black;
-  max-width: 300px;
-  max-height: 300px;
+  width: 250px;
+  height: 250px;
 }
 
 .hero .hero-main {
@@ -93,17 +96,14 @@ nav ul a {
   justify-self: end;
 }
 
-
-.hero-text span{
-
-    cursor: pointer;
-    display: flex;
-    gap: 1.3rem;
-    margin: 2.5rem 0;
+.hero-text span {
+  cursor: pointer;
+  display: flex;
+  gap: 1.3rem;
+  margin: 2.5rem 0;
 }
 .hero-main .hero-text {
   align-self: center;
-  padding-right: 2rem;
 }
 
 .hero-text h1 {
@@ -131,6 +131,7 @@ nav ul a {
 .hero-main .hero-heading {
   font-size: xxx-large;
   color: #2d2e32;
+  padding-top: 2rem;
 }
 
 .hero .skills {
@@ -139,7 +140,7 @@ nav ul a {
   align-items: center;
 }
 
-.skills span {
+.skills p {
   border-right: 2px solid rgba(45, 46, 50, 0.5);
   padding-right: 2rem;
   margin-right: 5rem;
@@ -224,7 +225,7 @@ nav ul a {
 }
 
 #about p {
-  line-height: 1.5rem;
+  line-height: 1.5;
 }
 
 #about .img-side_main-image {
@@ -247,12 +248,10 @@ nav ul a {
   padding: 2rem 0rem;
   text-align: center;
 }
+.project-image img {
+  width: 100%;
+  aspect-ratio: 16/9; 
 
-#streamify .project-image img,
-#netflix .project-image img,
-#eatfit .project-image img {
-  height: 250px;
-  width: 400px;
   border-radius: 18px;
   border: 1px solid gray;
 }
@@ -268,7 +267,6 @@ nav ul a {
   color: #767676;
   padding: 1.5rem 2rem;
   font-family: Mulish, sans-serif;
-  font-size: 1rem;
 }
 .project-text ul {
   display: flex;
@@ -277,10 +275,6 @@ nav ul a {
   padding: 1.5rem 0;
   font-weight: 600;
   cursor: pointer;
-}
-
-.project-text .link a:hover {
-  color: #147efb;
 }
 
 #contact {
@@ -338,6 +332,11 @@ footer .content {
 }
 
 footer p {
-  font-size: 1.3rem;
+  font-size: 1rem;
   text-align: center;
+}
+
+footer a {
+  color: white;
+  padding-right: 1rem;
 }
