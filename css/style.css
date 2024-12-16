@@ -277,9 +277,36 @@ nav ul a {
   cursor: pointer;
 }
 
+#resume{
+  margin:2rem 0;
+  padding:5rem;
+  background-color: #f9f9f9;;
+  border-radius: 2rem;
+}
+
+#resume .resume-content{
+  background-color: lightgray;
+  border-radius: 12px;
+  padding: 3rem; 
+}
+
+.resume .line{
+  padding:1rem ;
+}
+
+.resume .line p{
+  text-transform: uppercase;
+}
+
+.resume .link{
+  text-decoration: underline;
+  color: black;
+  font-size: xx-large;
+
+}
+
 #contact {
-  background-color: #f9f9f9;
-  padding: 11rem 0;
+  padding: 8rem 0;
   text-align: center;
 }
 
