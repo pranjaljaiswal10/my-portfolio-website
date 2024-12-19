@@ -106,6 +106,15 @@
     order: 2;
   }
 
+
+  #resume{
+  padding:0rem;
+  }
+
+  .resume-content{
+    text-align: center;
+  }
+
   .contact-content {
     align-items: center;
   }
